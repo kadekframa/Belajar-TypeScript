@@ -1,0 +1,15 @@
+{
+  "name": "TypeScript_Dasar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "del -f build && tsc",
+    "ts": "del -f build && tsc -w",
+    "dev": "nodemon ./build/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.3"
+  }
+}
