@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "del -f build && tsc",
     "ts": "del -f build && tsc -w",
-    "dev": "nodemon ./build/typescriptDasar.js"
+    "dev": "nodemon ./build/array.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.19",
