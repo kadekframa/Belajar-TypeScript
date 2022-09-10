@@ -35,3 +35,12 @@ console.info('');
 console.info('Hasilnya adalah: ' + results);
 
 
+// function as type.
+
+type Tambah = (val1: number,val2: number) => number;
+
+const add: Tambah = (val1, val2): number => {
+    return val1 + val2;
+}
+
+console.info(`Results Add: ${add(6,4)}`); 
