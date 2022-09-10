@@ -8,3 +8,15 @@ function getAge() {
     return 123;
 }
 console.info(getAge());
+function printName() {
+    console.info("Print Nama Seseorang...");
+}
+printName();
+/* ========================================== */
+// Argument types pada function.
+function multiply(val1, val2) {
+    return val1 * val2;
+}
+const results = multiply(2, 3);
+console.info('');
+console.info('Hasilnya adalah: ' + results);
